@@ -1,0 +1,5 @@
+All the code should work with the latest Numpy, Scipy and Matplotlib. To get the graphs from the report run the file with the appropriate name and the graphs should be generated in order. Some of the data will be printed out in the console, which I have used as well, this is also in order. Each section of code has a header that tells you what it is calculating or plotting. The "nbody.py" file only contains code that the other files use, running it on it's own should do nothing.
+
+For the "Figure_8.py" file the "Energy Range Vs Step size" section takes a while to run (a fair few minutes) as it's doing 100 simulation each with more time steps than the last.
+
+For the "Trappist1.py" file the "Energies for longer times (T = 19000 days)" section took over an hour to run, this is because odeint from scipy took ages to run, I tried to mess with the tolerances and max steps but it still took well over an hour to run. There's not much I can do about that code as it's written by the people that made scipy.
